@@ -1,0 +1,7 @@
+# Jobs in low priority queue are not done until default queue is empty.
+# The order of the queues in this file is the order in which jobs are done.
+
+:concurrency: 5
+:queues:
+  - default
+  - low
